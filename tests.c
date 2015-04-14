@@ -84,7 +84,7 @@ A_Test void test_malloc_node(){
 	my_free(my_node);	
 }
 
-A_Test void test_malloc_string(){
+A_Test void  test_malloc_string(){
 	char * malloc_hello = (char *)malloc(sizeof("hello"));
 	malloc_hello = "hello";
 	char * my_hello = (char *)my_nextfit_malloc(sizeof("hello"));
