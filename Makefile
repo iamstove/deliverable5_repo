@@ -1,6 +1,5 @@
 all:
-	gcc -c mymalloc.c -g
-	gcc -o mymalloc mymalloc.o
+	gcc -o mymalloc mymalloc.c tests.c
 
 clean:
 	rm *.o
